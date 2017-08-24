@@ -141,6 +141,7 @@
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
+                
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>

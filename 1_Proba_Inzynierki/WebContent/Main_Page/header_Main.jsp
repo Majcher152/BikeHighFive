@@ -24,6 +24,7 @@
     <!-- Custom styles for this template -->
     <link href="/1_Proba_Inzynierki/Main_Page/css/landing-page.css" rel="stylesheet">
 
+	<script src ="validation_MessageContactUs.js" type ="text/javascript"></script>
   </head>
 
   <body>
