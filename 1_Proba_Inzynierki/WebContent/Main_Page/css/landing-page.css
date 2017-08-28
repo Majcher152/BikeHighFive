@@ -160,3 +160,38 @@ p.copyright {
 
 
 
+.field-keys {
+   border-top: 1px solid #15b;
+   border-bottom: 1px solid #15b;
+   background: #e3e3e3;
+   padding: 3px;
+   color:  black;
+}
+
+.content-section-a{
+	
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+}
+
+.content-section-a  h2, .content-section-a p {
+	
+	transition: all 0.8s ease;
+} 
+
+.content-section-a.hidden h2{
+	opacity: 0;
+	transform: translate3d(0,0,400px) rotateY(-40deg);
+}
+
+.content-section-a.hidden p{
+	opacity: 0;
+	transform: translate3d(0,0,400px) rotateY(40deg);
+}
+
+#navigation {
+	
+	transition: all 0.4s;
+	background-color: #98FB98;
+}
+

@@ -38,7 +38,7 @@
 
 
     <!-- Page Content -->
-    <section class="content-section-a" id ="services">
+    <section class="content-section-a hidden" id ="services">
 
       <div class="container">
         <div class="row">
@@ -59,7 +59,7 @@
 
     <section class="content-section-b">
 
-      <div class="container">
+      <div class="container hidden">
 
         <div class="row">
           <div class="col-lg-5 mr-auto order-lg-2">
@@ -80,9 +80,9 @@
     </section>
     <!-- /.content-section-b -->
 
-    <section class="content-section-a" id="about">
+    <section class="content-section-a hidden" id="about">
 
-      <div class="container">
+      <div class="container hidden">
 
         <div class="row">
           <div class="col-lg-5 ml-auto">
@@ -105,7 +105,7 @@
 
     <aside class="banner">
 
-      <div class="container">
+      <div class="container hidden">
       
       
     <!-- Contact -->
@@ -123,21 +123,22 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                    <!-- <input class="form-control" id="name" type="text" placeholder="Your Name" required data-validation-required-message="Please enter your name."> -->
+                    <input class="form-control" id="name" type="text" placeholder="Your Name" data-toggle="popover" data-placement="top" data-content="Please enter your name.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email" data-toggle="popover" data-placement="top" data-content="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone" data-toggle="popover" data-placement="top" data-content="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" placeholder="Your Message" data-toggle="popover" data-placement="top" data-content="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>

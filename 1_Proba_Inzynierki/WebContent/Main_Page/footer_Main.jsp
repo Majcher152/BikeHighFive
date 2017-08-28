@@ -29,7 +29,8 @@
     <script src="/1_Proba_Inzynierki/lib/bootstrap/js/libs/JQuery/jquery.js"></script>
     <script src="/1_Proba_Inzynierki/lib/bootstrap/js/libs/popper/popper.min.js"></script>
     <script src="/1_Proba_Inzynierki/lib/bootstrap/js/bootstrap.min.js"></script>
-
+    <script src ="/1_Proba_Inzynierki/Main_Page/js/validation_MessageContactUs.js" type ="text/javascript"></script>
+	<script src ="/1_Proba_Inzynierki/Main_Page/js/animation.js" type ="text/javascript"></script> 
   </body>
 
 </html>

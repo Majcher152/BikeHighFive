@@ -24,13 +24,13 @@
     <!-- Custom styles for this template -->
     <link href="/1_Proba_Inzynierki/Main_Page/css/landing-page.css" rel="stylesheet">
 
-	<script src ="validation_MessageContactUs.js" type ="text/javascript"></script>
+	
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navigation">
       <div class="container">
         <a class="navbar-brand" href="index.jsp">Bike High Five</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
