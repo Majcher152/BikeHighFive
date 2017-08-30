@@ -1,32 +1,40 @@
 
-
-$(document).ready(function(){
-	
-	(function(){
-		//var aboutEl = $('about'),
-	//nie dziala :c //	var aboutEl =  $(document.getElementById('services')),
-			aboutElOffset = aboutEl.offset().top/2,
-			documentEl = $(document);
+$(document).ready(function() {		
+	function Scroll() {
+		var navigation = document.getElementById('navigationID'),
+		documentEl = $(document),
+		ypos = window.pageYOffset,
+		howItWorks = $(document.getElementById('howItWorksID')), 
+		howItWorksOffset = howItWorks.offset().top / 2,
+		howItWorks_2 = $(document.getElementById('howItWorksID_2')), 
+		howItWorks_2Offset = howItWorks.offset().top / 2,
+		about = $(document.getElementById('about')), 
+		aboutOffset = howItWorks.offset().top / 2;
 		
-		documentEl.on('scroll', function(){
-			if(documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden'))
-			{
-				aboutEl.removeClass('hidden');
-			}
-		});
-	})();
-});  
-
-$(document).ready(function(){
-	function Scroll(){
-		var top = document.getElementById('navigation');
-		var ypos = window.pageYOffset;
-		if(ypos > 610 ){
-			top.style.height = "45px";
+			
+		if (documentEl.scrollTop() > howItWorksOffset && howItWorks.hasClass('hidden')) {
+			// zle sa te add i remove :/
+			howItWorks.removeClass('hidden');
+			howItWorks_2.addClass('hidden');
+			about.addClass('hidden');
+		} else if ( howItWorksOffset <= documentEl.scrollTop() < howItWorks_2Offset && howItWorks_2.hasClass('hidden')) {			
+			howItWorks.addClass('hidden');
+			howItWorks_2.removeClass('hidden');
+			about.addClass('hidden');
+		} else if (howItWorks_2Offset <= documentEl.scrollTop()<  aboutOffset && about.hasClass('hidden')) {			
+			howItWorks.addClass('hidden');
+			howItWorks_2.addClass('hidden');
+			about.removeClass('hidden');
+		}
+		
+		if (ypos > howItWorksOffset) {
+			navigation.style.height = "45px";
 		} else {
-		top.style.height = "100px";
+			navigation.style.height = "100px";
 		}
 	}
-	
-	window.addEventListener("scroll", Scroll)
+
+	window.addEventListener("scroll", Scroll);
+	document.getElementById("howItWorks_Button").addEventListener("click", Scroll);
+					
 });

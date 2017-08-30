@@ -38,7 +38,7 @@
 
 
     <!-- Page Content -->
-    <section class="content-section-a hidden" id ="services">
+    <section class="content-section-a hidden" id ="howItWorksID">
 
       <div class="container">
         <div class="row">
@@ -49,7 +49,7 @@
             <p class="lead">A lama in my living room.</p>
           </div>
           <div class="col-lg-5 mr-auto">
-            <img class="img-fluid" src="/1_Proba_Inzynierki/Main_Page/img/Main_Bike.jpg" alt="">
+            <img class="img-fluid" src="/1_Proba_Inzynierki/Main_Page/img/Main_Bike.jpg" alt="" id ="img234">
           </div>
         </div>
 
@@ -57,9 +57,9 @@
       <!-- /.container -->
     </section>
 
-    <section class="content-section-b">
+    <section class="content-section-b hidden" id ="howItWorksID_2">
 
-      <div class="container hidden">
+      <div class="container">
 
         <div class="row">
           <div class="col-lg-5 mr-auto order-lg-2">
@@ -82,8 +82,7 @@
 
     <section class="content-section-a hidden" id="about">
 
-      <div class="container hidden">
-
+      <div class="container">
         <div class="row">
           <div class="col-lg-5 ml-auto">
             <hr class="section-heading-spacer">

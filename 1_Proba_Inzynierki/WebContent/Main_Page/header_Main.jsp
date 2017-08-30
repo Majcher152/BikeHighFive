@@ -30,7 +30,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigationID">
       <div class="container">
         <a class="navbar-brand" href="index.jsp">Bike High Five</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.jsp#services">How it works?</a>
+              <a class="nav-link" href="index.jsp#howItWorksID" id ="howItWorks_Button">How it works?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.jsp#about">About</a>
