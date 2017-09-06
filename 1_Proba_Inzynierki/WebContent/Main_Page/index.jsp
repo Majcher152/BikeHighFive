@@ -25,7 +25,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="index.jsp#services" class="btn btn-secondary btn-lg">
+              <a href="index.jsp#howItWorksID" class="btn btn-secondary btn-lg">
                 <i class="fa fa-globe fa-fw"></i> 
                 <span class="network-name">Learn more</span>
               </a>
@@ -46,7 +46,16 @@
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">SHIT SHIT SHIT SHIT<br>BIKE IS IT BIKE BIKE BIKE</h2>
-            <p class="lead">A lama in my living room.</p>
+            <p class="lead">A lama in my living room. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. 
+            Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque 
+            semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies 
+            purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, 
+            vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget
+             neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus
+              eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi,
+               in interdum massa nibh nec erat.</p>
+            
           </div>
           <div class="col-lg-5 mr-auto">
             <img class="img-fluid" src="/1_Proba_Inzynierki/Main_Page/img/Main_Bike.jpg" alt="" id ="img234">
@@ -67,7 +76,15 @@
             <div class="clearfix"></div>
             <h2 class="section-heading">HARD TIMES</h2>
             <p class="lead">GONNA MAKE U WONDER WHY U EVEN TRY <br> HARD TIMES <br>
-            gonna take your laugh and make u cry</p>
+            gonna take your laugh and make u cry. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. 
+            Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque 
+            semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies 
+            purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, 
+            vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget
+             neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus
+              eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi,
+               in interdum massa nibh nec erat.</p>
           </div>
           <div class="col-lg-5 ml-auto order-lg-1">
             <img class="img-fluid" src="/1_Proba_Inzynierki/Main_Page/img/b5.jpg" alt="">
@@ -80,7 +97,7 @@
     </section>
     <!-- /.content-section-b -->
 
-    <section class="content-section-a hidden" id="about">
+    <section class="content-section-c hidden" id="about">
 
       <div class="container">
         <div class="row">
@@ -89,7 +106,15 @@
             <div class="clearfix"></div>
             <h2 class="section-heading">About us</h2>
             <p class="lead">Łukasz Majcher in 2017 created B^5. His goal was to help people find better roads for cycling <br>
-            and encourage people to start doin' it with his little help. </p>
+            and encourage people to start doin' it with his little help. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. 
+            Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque 
+            semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies 
+            purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, 
+            vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget
+             neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus
+              eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi,
+               in interdum massa nibh nec erat.</p>
           </div>
           <div class="col-lg-5 mr-auto ">
             <img class="img-fluid" src="/1_Proba_Inzynierki/Main_Page/img/b8.jpg" alt="">

@@ -32,26 +32,26 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigationID">
       <div class="container">
-        <a class="navbar-brand" href="index.jsp">Bike High Five</a>
+        <a class="navigation_Title" href="index.jsp" id="navigationID_Title">Bike High Five</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.jsp#howItWorksID" id ="howItWorks_Button">How it works?</a>
+              <a class="navbar-link" href="index.jsp#howItWorksID" id ="howItWorks_Button">How it works?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.jsp#about">About</a>
+              <a class="navbar-link" href="index.jsp#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.jsp#contact">Contact</a>
+              <a class="navbar-link" href="index.jsp#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="join_Now.jsp">Sing up</a>
+              <a class="navbar-link" href="join_Now.jsp">Sing up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="log_In.jsp">Log In</a>
+              <a class="navbar-link" href="log_In.jsp">Log In</a>
             </li>
           </ul>
         </div>
