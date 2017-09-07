@@ -6777,7 +6777,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .ml-auto {
-  margin-left: auto !important;
+  margin-left: auto;
 }
 
 .mx-auto {

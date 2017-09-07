@@ -27,7 +27,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message {
-  position: relative;
+  position: static;
   padding-top: 30%;
   padding-bottom: 20%;
 }
@@ -36,11 +36,12 @@ body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   text-shadow: 2px 2px 6px #000000;
   font-size: 6em;
+  padding: 0 0 10px 0;
 }
 .intro-message>h3 {
   margin: 0;
   text-shadow: 2px 2px 6px #000000;
-  font-size: 7em;
+  font-size: 4em;
 }
 
 .intro-divider {
@@ -230,15 +231,15 @@ p.copyright {
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 24px;
+    margin-right: 5rem;
+    font-size: 30px;
     line-height: inherit;
     white-space: nowrap;
     color: #595959;
 }
 
 .navbar-link{
-	font-size: 20px;
+	font-size: 22px;
 	color: rgba(0,0,0,.5);
 	padding-right: .5rem;
     padding-left: .5rem;
@@ -271,4 +272,19 @@ p.copyright {
   .list-inline-item {
 
  height: 100px;
+ }
+ 
+ #navbar-items-list{
+ margin-left: 50%
+ }
+ 
+ #cointer_intro-message {
+ 	margin-left: 10%;
+ 	margin-right: 5%;
+ 	
+ }
+ /* Trzeba zmienic ten navbar*/
+ #navbarResponsive {
+ 	width: 2000px;
+ 	position: relative;
  }

@@ -1,8 +1,9 @@
 
 $(document).ready(function() {		
 	function Scroll() {
-		var navigation = document.getElementById('navbarResponsive'),
+		var navigation = document.getElementById('navigationID'),
 		navigation_Title = document.getElementById('navigationID_Title'),
+		list = document.getElementById('navigationID').getElementsByClassName('navbar-link'),
 		documentEl = $(document),
 		ypos = window.pageYOffset,
 		howItWorks = $(document.getElementById('howItWorksID')), 
@@ -12,6 +13,7 @@ $(document).ready(function() {
 		about = $(document.getElementById('about')), 
 		aboutOffset = about.offset().top*0.7;
 		
+	//	console.log(list);
 		
 		if (  ypos > howItWorksOffset) {
 			howItWorks.removeClass('hidden');
@@ -22,15 +24,23 @@ $(document).ready(function() {
 		if (documentEl.scrollTop() > aboutOffset ) {
 			about.removeClass('hidden');
 		}
-		//przestało działać
+
 		if (ypos > howItWorksOffset) {
 			navigation.style.height = "45px";
-			navigation.style.fontSize = "16px";
-			navigation_Title.fontSize = "20px";
-		} else {
+			document.getElementById('navigationID_Title').style.fontSize = "20px";
+			document.getElementById('howItWorks_Button').style.fontSize = "18px";
+			document.getElementById('about_Button').style.fontSize = "18px";
+			document.getElementById('contact_Button').style.fontSize = "18px";
+			document.getElementById('singUp_Button').style.fontSize = "18px";
+			document.getElementById('logIn_Button').style.fontSize = "18px";
+	} else {
 			navigation.style.height = "100px";
-			navigation.style.fontSize = "22px";
-			navigation_Title.fontSize = "24px";
+			document.getElementById('navigationID_Title').style.fontSize = "30px";
+			document.getElementById('howItWorks_Button').style.fontSize = "22px";
+			document.getElementById('about_Button').style.fontSize = "22px";
+			document.getElementById('contact_Button').style.fontSize = "22px";
+			document.getElementById('singUp_Button').style.fontSize = "22px";
+			document.getElementById('logIn_Button').style.fontSize = "22px";
 		}
 	}
 
