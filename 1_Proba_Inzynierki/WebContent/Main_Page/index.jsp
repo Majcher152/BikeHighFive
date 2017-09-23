@@ -6,7 +6,7 @@
 
 <!-- Header -->
     <header class="intro-header">
-      <div class="container">
+      <div class="container-fluid">
         <div class="intro-message">
           <h1 id ="bhfh1">Bike^5</h1>
           <h3 id ="bhfh3">Give your bike a high five today!</h3>

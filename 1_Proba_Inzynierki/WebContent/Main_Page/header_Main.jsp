@@ -31,11 +31,18 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigationID">
-      <div class="container" id="cointer_intro-message">
+      <div class="container-fluid" id="cointer_intro-message">
+<!--       <div class="col-10 col-md-8"> -->
+<div class="row justify-content-between">
+ <div class="col-1">
         <a class="navigation_Title" href="index.jsp" id="navigationID_Title">Bike High Five</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+<!--        </div> -->
+</div>
+      
+    <!--     <div class="col-10 col-md-5"> --> <div class="col-1">
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav" id ="navbar-items-list">
             <li class="nav-item">
@@ -54,8 +61,12 @@
               <a class="navbar-link" href="log_In.jsp" id ="logIn_Button">Log In</a>
             </li>
           </ul>
+          </div>
         </div>
-      </div>
+        
+        </div>  </div>
+      <!-- </div> -->
+      
     </nav>
 
     

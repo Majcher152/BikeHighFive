@@ -231,7 +231,7 @@ p.copyright {
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    margin-right: 5rem;
+   /* margin-right: 50rem; */
     font-size: 30px;
     line-height: inherit;
     white-space: nowrap;
@@ -264,27 +264,26 @@ p.copyright {
   	color: black;
  }
 
- .list-inline {
- width:1300px;
- height: 100px;
- }
+/*  .list-inline {
+ 	width: 1300px;
+ 	height: 100px;
+ } */
  
   .list-inline-item {
-
- height: 100px;
+	 height: 100px;
  }
  
- #navbar-items-list{
+/*  #navbar-items-list{
  margin-left: 50%
  }
- 
- #cointer_intro-message {
+  */
+/*  #cointer_intro-message {
  	margin-left: 10%;
  	margin-right: 5%;
  	
- }
+ } */
  /* Trzeba zmienic ten navbar*/
- #navbarResponsive {
+/*  #navbarResponsive {
  	width: 2000px;
  	position: relative;
- }
+ } */
