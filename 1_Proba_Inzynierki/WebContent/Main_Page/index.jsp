@@ -4,36 +4,6 @@
 
 <jsp:include page="header_Main.jsp" />
 
-<!-- Header -->
-    <header class="intro-header">
-      <div class="container-fluid">
-        <div class="intro-message">
-          <h1 id ="bhfh1">Bike^5</h1>
-          <h3 id ="bhfh3">Give your bike a high five today!</h3>
-          <hr class="intro-divider">
-          <ul class="list-inline intro-social-buttons">
-            <li class="list-inline-item">
-              <a href="join_Now.jsp" class="btn btn-secondary btn-lg">
-                <i class="fa fa-handshake-o fa-fw" aria-hidden="true"></i>
-                <span class="network-name">Join Now</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="log_In.jsp" class="btn btn-secondary btn-lg">
-                <i class="fa fa-bicycle fa-fw" aria-hidden="true"></i>
-                <span class="network-name"> Log In</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="index.jsp#howItWorksID" class="btn btn-secondary btn-lg">
-                <i class="fa fa-globe fa-fw"></i> 
-                <span class="network-name">Learn more</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
 
 
 

@@ -32,20 +32,20 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigationID">
       <div class="container-fluid" id="cointer_intro-message">
-<!--       <div class="col-10 col-md-8"> -->
-<div class="row justify-content-between">
- <div class="col-1">
+<!--  <div class="row justify-content-between">-->
+ <div class="col-5 col-md-5">
         <a class="navigation_Title" href="index.jsp" id="navigationID_Title">Bike High Five</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-<!--        </div> -->
-</div>
-
+        </div>
+ <div class="col-3 col-md-0">
+ </div>
       
       
-    <!--     <div class="col-10 col-md-5"> --> <div class="col-1">
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+  <!--    <div class="col-2 col-md-2"> -->  <!--  <div class="col-1">-->
+  <div class="col-4 col-md-5">
+       <!--  <div class="collapse navbar-collapse" id="navbarResponsive"> -->
           <ul class="navbar-nav" id ="navbar-items-list">
             <li class="nav-item">
               <a class="navbar-link" href="index.jsp#howItWorksID" id ="howItWorks_Button">How it works?</a>
@@ -63,12 +63,44 @@
               <a class="navbar-link" href="log_In.jsp" id ="logIn_Button">Log In</a>
             </li>
           </ul>
-          </div>
-        </div>
-        
-        </div>  </div>
-      <!-- </div> -->
+          <!--  </div>-->
+        <!--  </div>-->
+       <!-- </div> -->
+       <!--  </div> -->  </div>
+      </div> 
       
     </nav>
+    
+    <!-- Header -->
+    <header class="intro-header">
+      <div class="container-fluid">
+        <div class="intro-message">
+          <h1 id ="bhfh1">Bike^5</h1>
+          <h3 id ="bhfh3">Give your bike a high five today!</h3>
+          <hr class="intro-divider">
+          <ul class="list-inline intro-social-buttons">
+            <li class="list-inline-item">
+              <a href="join_Now.jsp" class="btn btn-secondary btn-lg">
+                <i class="fa fa-handshake-o fa-fw" aria-hidden="true"></i>
+                <span class="network-name">Join Now</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="log_In.jsp" class="btn btn-secondary btn-lg">
+                <i class="fa fa-bicycle fa-fw" aria-hidden="true"></i>
+                <span class="network-name"> Log In</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="index.jsp#howItWorksID" class="btn btn-secondary btn-lg">
+                <i class="fa fa-globe fa-fw"></i> 
+                <span class="network-name">Learn more</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
 
     
