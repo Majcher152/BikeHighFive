@@ -27,7 +27,7 @@ $(document).ready(function() {
 		}
 
 	//	console.log(howItWorksOffset+ " " +ypos);
-		if (ypos > howItWorksOffset) {
+		/*if (ypos > howItWorksOffset) {
 	//		console.log(1);
 			navigation.style.height = "45px";
 			document.getElementById('navigationID_Title').style.fontSize = "20px";
@@ -37,7 +37,7 @@ $(document).ready(function() {
 			document.getElementById('singUp_Button').style.fontSize = "18px";
 			document.getElementById('logIn_Button').style.fontSize = "18px";
 	//		flag = false;
-	} else if (ypos < howItWorksOffset) {
+	}*//* else if (ypos < howItWorksOffset) {
 		//	console.log(2);
 			navigation.style.height = "100px";
 			document.getElementById('navigationID_Title').style.fontSize = "30px";
@@ -47,7 +47,7 @@ $(document).ready(function() {
 			document.getElementById('singUp_Button').style.fontSize = "22px";
 			document.getElementById('logIn_Button').style.fontSize = "22px";
 	//		flag = true;
-		}
+		}*/
 	}
 
 	window.addEventListener("scroll", Scroll);

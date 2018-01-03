@@ -57,7 +57,7 @@
               <a class="navbar-link" href="index.jsp#contact" id ="contact_Button">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-link" href="join_Now.jsp" id ="singUp_Button">Sing up</a>
+              <a class="navbar-link" href="join_Now.jsp#singUpID" id ="singUp_Button">Sing up</a>
             </li>
             <li class="nav-item">
               <a class="navbar-link" href="log_In.jsp" id ="logIn_Button">Log In</a>

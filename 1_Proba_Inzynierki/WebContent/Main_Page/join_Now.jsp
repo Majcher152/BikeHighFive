@@ -1,14 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.io.*,java.sql.*" %>
-    
+ <%@ page import="java.io.*" %>
 <jsp:include page="header_Main.jsp" />
 <jsp:include page="/Main_Page/registration_Validation.jsp" />
 
 	<div class="container marketing">
 		
-
-			<div class="panel-heading">
+			<br><br><br><br><br>
+			<div class="panel-heading" id="singUpID">
 				<div class="panel-title text-center">
 					<h1 class="title" >Sing Up:</h1>
 				</div>
@@ -140,7 +139,7 @@
 					%>
 					
 					<div class="login-register">
-						<a href="log_In.jsp">Zaloguj się</a>
+						<a href="log_In.jsp">Log In</a>
 					</div>
 				</form>
 			</div>
